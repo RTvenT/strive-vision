@@ -1,0 +1,21 @@
+[project]
+name = "strive-vision"
+version = "0.1.0"
+description = "Personal implementations of CV architectures"
+readme = "README.md"
+authors = [
+    { name = "Andrey Kim", email = "rasword2006@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "torch",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
